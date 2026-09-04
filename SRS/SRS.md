@@ -34,8 +34,8 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 ### 3.1 Viðskiptakröfur
 | ID                                        | Titill                    |
 |-------------------------------------------|---------------------------|
-| [BREQ-1](business_requirements.md#breq-1) | [Titill á viðskiptakröfu] |
-| [BREQ-2](business_requirements.md#breq-2) | [Titill á viðskiptakröfu] |
+| [BREQ-1](business_requirements.md#breq-1) | Draga úr óvissu og mistökum við vaktaskipti |
+| [BREQ-2](business_requirements.md#breq-2) | Einfalda umsýslu vaktaplans og afleysinga |
 
 ### 3.2 Kerfiskrafa
 | ID                              | Titill                 |
