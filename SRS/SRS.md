@@ -45,9 +45,9 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 ### 3.3 Eiginleikar (Features)
 | ID                     | Titill                 |
 |------------------------|------------------------|
-| [F-1](feature.md#f-1)  | [Titill á eiginleika]  |
-| [F-2](feature.md#f-2)  | [Titill á eiginleika]  |
-| [F-3](feature.md#f-3)  | [Titill á eiginleika]  |
+| [F-1](feature.md#f-1)  | Vaktaskipti og afleysingar  |
+| [F-2](feature.md#f-2)  | Samþykki vaktaskipta og afleysinga  |
+| [F-3](feature.md#f-3)  | Vaktaplan og tilkynningar  |
 
 ### 3.4 Notendakröfur
 | ID                                   | Titill                  | Eiginleiki |
