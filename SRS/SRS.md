@@ -60,26 +60,27 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 | [UR-6](user_requirement.md#ur-6)     | [Titill á notendakröfu] | F-3        |
 
 ### 3.5 Virknikröfur
-| ID                                          | Titill                                      | Notendakrafa |
-|---------------------------------------------|---------------------------------------------|--------------|
-| [FR-1](functional_requirement.md#fr-1)      | [Virkni sem styður notendakröfu, titill]    | UR-1         |
-| [FR-2](functional_requirement.md#fr-2)      | [Önnur virkni, titill]                      | UR-1         |
-| [FR-3](functional_requirement.md#fr-3)      | [Önnur virkni, titill]                      | UR-1         |
-| [FR-4](functional_requirement.md#fr-4)      | [Virkni]                                    | UR-2         |
-| [FR-5](functional_requirement.md#fr-5)      | [Virkni]                                    | UR-2         |
-| [FR-6](functional_requirement.md#fr-6)      | [Virkni]                                    | UR-2         |
-| [FR-7](functional_requirement.md#fr-7)      | [Virkni]                                    | UR-3         |
-| [FR-8](functional_requirement.md#fr-8)      | [Virkni]                                    | UR-3         |
-| [FR-9](functional_requirement.md#fr-9)      | [Virkni]                                    | UR-3         |
-| [FR-10](functional_requirement.md#fr-10)    | [Virkni]                                    | UR-4         |
-| [FR-11](functional_requirement.md#fr-11)    | [Virkni]                                    | UR-4         |
-| [FR-12](functional_requirement.md#fr-12)    | [Virkni]                                    | UR-4         |
-| [FR-13](functional_requirement.md#fr-13)    | [Virkni]                                    | UR-5         |
-| [FR-14](functional_requirement.md#fr-14)    | [Virkni]                                    | UR-5         |
-| [FR-15](functional_requirement.md#fr-15)    | [Virkni]                                    | UR-5         |
-| [FR-16](functional_requirement.md#fr-16)    | [Virkni]                                    | UR-6         |
-| [FR-17](functional_requirement.md#fr-17)    | [Virkni]                                    | UR-6         |
-| [FR-18](functional_requirement.md#fr-18)    | [Virkni]                                    | UR-6         |
+
+| ID | Titill | Notendakrafa |
+|---|---|---|
+| [FR-1](functional_requirement.md#fr-1) | Velja vakt í afleysingu | UR-1 |
+| [FR-2](functional_requirement.md#fr-2) | Senda beiðni um afleysingu | UR-1 |
+| [FR-3](functional_requirement.md#fr-3) | Skoða stöðu beiðni | UR-1 |
+| [FR-4](functional_requirement.md#fr-4) | Skoða lausar vaktir | UR-2 |
+| [FR-5](functional_requirement.md#fr-5) | Óska eftir að taka vakt | UR-2 |
+| [FR-6](functional_requirement.md#fr-6) | Athuga skilyrði fyrir vakt | UR-2 |
+| [FR-7](functional_requirement.md#fr-7) | Skoða óafgreiddar beiðnir | UR-3 |
+| [FR-8](functional_requirement.md#fr-8) | Skoða upplýsingar um beiðni | UR-3 |
+| [FR-9](functional_requirement.md#fr-9) | Skoða stöðu beiðna | UR-3 |
+| [FR-10](functional_requirement.md#fr-10) | Samþykkja beiðni | UR-4 |
+| [FR-11](functional_requirement.md#fr-11) | Hafna beiðni | UR-4 |
+| [FR-12](functional_requirement.md#fr-12) | Uppfæra ábyrgð á vakt | UR-4 |
+| [FR-13](functional_requirement.md#fr-13) | Skoða vaktaplan | UR-5 |
+| [FR-14](functional_requirement.md#fr-14) | Skoða ábyrgð á vöktum | UR-5 |
+| [FR-15](functional_requirement.md#fr-15) | Uppfæra vaktaplan | UR-5 |
+| [FR-16](functional_requirement.md#fr-16) | Tilkynna niðurstöðu beiðni | UR-6 |
+| [FR-17](functional_requirement.md#fr-17) | Tilkynna nýja beiðni | UR-6 |
+| [FR-18](functional_requirement.md#fr-18) | Tilkynna breytingu á vakt | UR-6 |
 
 ### 3.6 Viðskiptareglur
 | ID                                  | Titill                     |
