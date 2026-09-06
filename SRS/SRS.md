@@ -52,12 +52,12 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 ### 3.4 Notendakröfur
 | ID                                   | Titill                  | Eiginleiki |
 |--------------------------------------|-------------------------|------------|
-| [UR-1](user_requirement.md#ur-1)     | [Titill á notendakröfu] | F-1        |
-| [UR-2](user_requirement.md#ur-2)     | [Titill á notendakröfu] | F-1        |
-| [UR-3](user_requirement.md#ur-3)     | [Titill á notendakröfu] | F-2        |
-| [UR-4](user_requirement.md#ur-4)     | [Titill á notendakröfu] | F-2        |
-| [UR-5](user_requirement.md#ur-5)     | [Titill á notendakröfu] | F-3        |
-| [UR-6](user_requirement.md#ur-6)     | [Titill á notendakröfu] | F-3        |
+| [UR-1](user_requirement.md#ur-1)     | Óska eftir afleysingu         | F-1        |
+| [UR-2](user_requirement.md#ur-2)     | Taka lausa vakt               | F-1        |
+| [UR-3](user_requirement.md#ur-3)     | Skoða beiðnir                 | F-2        |
+| [UR-4](user_requirement.md#ur-4)     | Samþykkja eða hafna beiðnum   | F-2        |
+| [UR-5](user_requirement.md#ur-5)     | Skoða uppfært vaktaplan       | F-3        |
+| [UR-6](user_requirement.md#ur-6)     | Fá tilkynningar um breytingar | F-3        |
 
 ### 3.5 Virknikröfur
 
