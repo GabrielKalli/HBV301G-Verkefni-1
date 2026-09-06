@@ -103,8 +103,8 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 ### 3.9 Ytri skil (Interfaces)
 | ID                                      | Titill                |
 |-----------------------------------------|-----------------------|
-| [UI-1](external_interface.md#ui-1)      | [Ytri skil, titill]   |
-| [UI-2](external_interface.md#ui-2)      | [Ytri skil, titill]   |
+| [UI-1](external_interface.md#ui-1)      | Tilkynningaþjónusta   |
+| [UI-2](external_interface.md#ui-2)      | Útflutningur á vaktagögnum til launakerfa   |
 
 ---
 
