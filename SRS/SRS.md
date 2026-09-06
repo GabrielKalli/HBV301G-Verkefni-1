@@ -84,8 +84,8 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 ### 3.6 Viðskiptareglur
 | ID                                  | Titill                     |
 |-------------------------------------|----------------------------|
-| [BRG-1](business_rule.md#brg-1)     | [Viðskiptaregla, titill]   |
-| [BRG-2](business_rule.md#brg-2)     | [Viðskiptaregla, titill]   |
+| [BRG-1](business_rule.md#brg-1)     | Samþykki vaktaskipta       |
+| [BRG-2](business_rule.md#brg-2)     | Hæfniskröfur fyrir vaktir  |
 
 ### 3.7 Gæðaeiginleikar
 | ID                                      | Titill                     |
