@@ -2,13 +2,52 @@
 
 ## 1. Inngangur
 ### 1.1 Tilgangur
-Stutt lýsing á tilgangi kerfisins og hverju það á að skila.
+**Vaktin** er stafrænt vaktaskipta- og afleysingakerfi sem leysir óreiðu í vaktavinnu með því að færa samskipti og samþykki úr óformlegum skilaboðahópum yfir á einn miðlægan vettvang.
+
+### Tilgangur kerfisins
+* **Sjálfvirknivæða vaktaskipti:** Gera starfsfólki kleift að skipta á vöktum og taka að sér afleysingar með auðveldum hætti í snjallsíma.
+* **Létta álagi af vaktstjórum:** Fækka handvirkum skráningum og stytta tímann sem fer í að manna lausar vaktir vegna forfalla.
+* **Tryggja regluvörslu:** Koma í veg fyrir tvíbókanir og tryggja að vaktaskipti stangist ekki á við kjarasamninga (t.d. lágmarkshvíldartíma).
+
+### Hverju kerfið á að skila (Deliverables)
+1. **Snjallsímaappa- / Vefviðmót fyrir starfsfólk:**
+   * Persónulegt yfirlit yfir eigin vaktir.
+   * Einfalt ferli til að leggja út vaktir í skipti eða taka að sér lausar vaktir.
+   * Rauntímatilkynningar (push notifications) um nýjar eða lausar vaktir.
+2. **Stjórnendaviðmót fyrir vakt- og rekstrarstjóra:**
+   * Yfirlit yfir mönnunarstöðu vinnustaðarins í rauntíma.
+   * Einn staður til að samþykkja eða hafna vaktaskiptum með einum smelli.
+   * Stillingar á innri reglum (t.d. réttindum starfsmanna og hvíldartíma).
+3. **Gagnatengingar og útflutningur:**
+   * Innflutningur á tilbúnum vaktaplónum (Excel/CSV eða API).
+   * Útflutningur á staðfestum vaktaskiptum yfir í launakerfi.
 
 ### 1.2 Umfang og mörk kerfisins
 
-Lýsið í stuttu máli hvað fellur innan marka kerfisins og hvað fellur utan þeirra.
-Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
+### 1. Innan marka kerfisins (In Scope)
+* **Umsýsla vaktaskipta og afleysinga:** Ferli þar sem starfsfólk setur vaktir í skipti, sækir um lausar vaktir og tekur að sér afleysingar.
+* **Samþykktarferli stjórnenda:** Viðmót fyrir vaktstjóra til að fara yfir, samþykkja eða hafna breytingum á vaktaplani.
+* **Sjálfvirk regluelding (Validation):** Athugun á því hvort vaktaskipti stangist á við kjarasamninga (t.d. lágmarkshvíld) eða innri reglur vinnustaðarins.
+* **Tilkynningastjórnun:** Útsending rauntímatilkynninga í síma notenda þegar vaktir losna eða beiðnir eru samþykktar.
+* **Mönnunaryfirlit:** Rauntímayfirlit fyrir vaktstjóra yfir mannahald og ómannaðar vaktir.
 
+### 2. Utan marka kerfisins (Out of Scope)
+* **Upphafleg vaktaplangerð:** Kerfið býr ekki til vaktaplön frá grunni heldur móttekur tilbúin plön úr ytri kerfum.
+* **Launavinnsla:** Engir útreikningar á lokalaunum, sköttum eða lífeyri fara fram í kerfinu.
+* **Viðverustimplun (Clock-in / Clock-out):** Ekkert mætingareftirlit eða stimplunarklukka á vinnustað.
+* **Samskiptaspjall (In-app Chat):** Engin frjáls textaskilaboð milli starfsmanna til að koma í veg fyrir óreiðu.
+
+---
+
+### 3. Helstu samskipti við umhverfið
+
+| Ytri aðili / Kerfi | Tegund samskipta | Lýsing á samskiptum |
+| :--- | :--- | :--- |
+| **Starfsfólk** | Inntak / Úttak | Senda inn óskir um skipti, taka að sér vaktir og fá tilkynningar í snjallsíma. |
+| **Vaktstjórar** | Inntak / Úttak | Fara yfir og samþykkja/hafna skiptum; fylgjast með mönnunarstöðu. |
+| **Ytra vaktaplankerfi** | Inntak (Import) | Sækir tilbúið vaktaplan og starfsmannalista (t.d. úr Excel/CSV eða API). |
+| **Tilkynningaþjónusta** | Úttak (Integration) | Sendir rauntímatilkynningar (Push Notifications / SMS) í gegnum ytri þjónustu (t.d. Firebase). |
+| **Launakerfi** | Úttak (Export) | Skilar staðfestum gögnum um samþykkt vaktaskipti í lok tímabils yfir í launakerfi (t.d. DK/Payday). |
 ### 1.3 Skilgreiningar
 | Hugtak | Skýring |
 |--------|---------|
@@ -22,10 +61,63 @@ Tilgreinið helstu samskipti kerfisins við umhverfi sitt.
 
 ## 2. Almenn lýsing
 ### 2.1 Notendahópar
-- Lýsa helstu notendahópum kerfisins (t.d. notendur, stjórnendur).
+Notendahópum kerfisins **Vaktin** er skipt í tvo meginflokka: **Beinir notendur** (þeir sem nota viðmót kerfisins daglega) og **Óbeinir notendur/Hagsmunaaðilar** (þeir sem nýta gögnin eða verða fyrir áhrifum af virkni þess).
 
+---
+
+### 1. Beinir notendur (Direct Users)
+
+#### A. Starfsfólk / Vaktamenn (Almennir notendur)
+* **Hverjir þetta eru:** Starfsmenn í vaktavinnu (t.d. þjónar, barþjónar, afgreiðslufólk eða eldhússtarfsfólk) sem vinna samkvæmt breytilegu vaktaplani.
+* **Markmið og þarfir:**
+  * Fá skýra yfirsýn yfir eigin vaktir í snjallsíma.
+  * Geta sett vaktir í skipti eða fengið afleysingu á einfaldan hátt án þess að senda skilaboð í stóra spjallhópa.
+  * Taka að sér aukavaktir/lausar vaktir til að auka tekjur eða vinnutíma.
+* **Tæknileg færni:** Yfirleitt vön almennri snjallsímanotkun (öppum eins og Messenger, Instagram o.fl.) og ætlast til þess að ferlið taki aðeins nokkra smelli.
+
+#### B. Vakt- og rekstrarstjórar (Stjórnendur)
+* **Hverjir þetta megin eru:** Deildarstjórar, vaktstjórar eða rekstraraðilar sem bera ábyrgð á daglegu mannahaldi og að vaktir séu fullmannaðar.
+* **Markmið og þarfir:**
+  * Fara yfir, samþykkja eða hafna óskum um vaktaskipti á einum miðlægum stað.
+  * Fá rauntímayfirlit yfir mannanarstöðuna (e. coverage) og sjá strax ef eyður myndast á vaktaplani.
+  * Tryggja að vaktaskipti stangist ekki á við reglur um hvíldartíma eða sérfræðikröfur á vaktinni.
+* **Tæknileg færni:** Meðalnotendur á tölvur og snjalltæki; þurfa skýrt og skilvirkt stjórnendaviðmót (dashboard) sem sparar þeim tíma í daglegum rekstri.
+
+---
+
+### 2. Óbeinir notendur og hagsmunaaðilar (Indirect Stakeholders)
+
+#### C. Eigendur / Framkvæmdastjórar
+* **Hverjir þetta eru:** Ákvarðanatökumenn sem bera heildarábyrgð á rekstrinum og fjármálum fyrirtækisins.
+* **Markmið og þarfir:**
+  * Lágmarka yfirvinnualag og óþarfa launakostnað sem hlýst af lélegu skipulagi eða tvíbókunum.
+  * Auka ánægju og halda í starfsfólk með því að bjóða upp á nútímalegt og sveigjanlegt vinnuumhverfi.
+
+#### D. Launadeild / Bókarar
+* **Hverjir þetta eru:** Starfsfólk sem sér um launavinnslu í lok hvers mánaðar.
+* **Markmið og þarfir:**
+  * Fá rétt og staðfest gögn um hver vann hvaða vakt í lok uppgjörstímabils til að forðast launaskekkjur.
 ### 2.2 Viðskiptaávinningur
-- Hver er ávinningurinn fyrir fyrirtæki eða notendur?
+Innleiðing á kerfinu **Vaktin** skilar mælanlegum ávinningi bæði fyrir rekstur fyrirtækja og daglega upplifun starfsfólks.
+
+---
+
+### 1. Ávinningur fyrir fyrirtæki og rekstraraðila
+
+* **Tímasparnaður stjórnenda:** Dregur úr þeim tíma sem vaktstjórar eyða í að handskrá breytingar, svara skilaboðum í ólíkum spjallhópum og leita að afleysingafólki á síðustu stundu.
+* **Lægri launakostnaður og færri mistök:** Vegna sjálfvirkrar regluvörslu minnka líkur á ótilgreindri yfirvinnu, tvíbókunum og mannlegum mistökum við skráningu á unnum vöktum.
+* **Betri nýting á mannafla:** Auðveldar að manna lausar vaktir með stuttum fyrirvara með því að senda rauntímatilkynningar á allt tiltækt og hæft starfsfólk í einu.
+* **Aukið rekstraröryggi:** Stjórnendur hafa fulla rauntímayfirsýn yfir mönnunarstöðuna og vita alltaf með bizonysoðum hver ber ábyrgð á hverri vakt.
+* **Bætt varðveisluhlutfall starfsfólks (Retention):** Nútímalegt og sveigjanlegt vinnuumhverfi eykur ánægju starfsmanna, sem dregur úr starfsmannaveltu og þjálfunarkostnaði.
+
+---
+
+### 2. Ávinningur fyrir starfsfólk (Notendur)
+
+* **Aukið sjálfstæði og sveigjanleiki:** Starfsfólk getur stýrt sínum eigin vinnutíma, lagt út vaktir og óskað eftir skiptum hvenær sem er milliliðalaust í snjallsíma.
+* **Aukin tekjumöguleikar:** Auðvelt er að fylgjast með lausum aukavöktum sem aðrir starfsmenn geta ekki unnið og taka þær að sér með einum smelli.
+* **Skýrari ábyrgð og öryggi:** Þegar vaktaskipti eru samþykkt af vaktstjóra í kerfinu færist ábyrgðin opinberlega yfir á nýja starfsmanninn, sem eyðir óvissu.
+* **Færri truflanir á frítíma:** Starfsfólk sleppur við stöðugar tilkynningar úr stórum skilaboðahópum (t.d. Messenger) og fær aðeins tilkynningar sem koma þeim við.
 
 ---
 
