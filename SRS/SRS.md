@@ -189,8 +189,8 @@ Innleiðing á kerfinu **Vaktin** skilar mælanlegum ávinningi bæði fyrir rek
 ### 3.8 Takmarkanir
 | ID                              | Titill                |
 |---------------------------------|-----------------------|
-| [C-1](constraint.md#c-1)        | [Takmörkun, titill]   |
-| [C-2](constraint.md#c-2)        | [Takmörkun, titill]   |
+| [C-1](constraint.md#c-1)        | Stuðningur við snjallsíma   |
+| [C-2](constraint.md#c-2)        | Gagnatenging og innflutningur á vaktaplónum   |
 
 ### 3.9 Ytri skil (Interfaces)
 | ID                                      | Titill                |
