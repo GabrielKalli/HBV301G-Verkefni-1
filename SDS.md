@@ -9,8 +9,7 @@ Vaktin
 ## Hvað er kerfið?
 Vaktin: Sveigjanlegt vaktaplan og afleysingakerfi
 
-Hvað er kerfið?
-Vaktin er stafræn lausn sem einfaldar alla umsjón með vaktaplónum, vaktaskiptum og afleysingum. Kerfið leysir óskilvirk samskipti í óformlegum skilaboðahópum með því að bjóða upp á miðlægan vettvang þar sem starfsfólk getur auðveldlega sett vaktir í skipti eða oskað eftir afleysingu og samstarfsfólk getur tekið að sér lausar vaktir. Kerfið sjálfvirkjar samþykkisferli vaktstjóra, heldur utan um réttindi starfsmanna og tryggir fulla yfirsýn yfir mannahald í rauntíma.
+Vaktin er stafræn lausn sem einfaldar alla umsjón með vaktaplónum, vaktaskiptum og afleysingum. Kerfið leysir óskilvirk samskipti í óformlegum skilaboðahópum með því að bjóða upp á miðlægan vettvang þar sem starfsfólk getur auðveldlega sett vaktir í skipti eða óskað eftir afleysingu og samstarfsfólk getur tekið að sér lausar vaktir. Kerfið sjálfvirkjar samþykkisferli vaktstjóra, heldur utan um réttindi starfsmanna og tryggir fulla yfirsýn yfir mannahald í rauntíma.
 
 Fyrir hvern er kerfið?
 
@@ -20,13 +19,14 @@ Fyrir hvern er kerfið?
 
 - Fyrirtæki í vaktavinnugeiranum: Upphaflega hannað fyrir veitingastaði og verslanir þar sem mannahald breytist hratt, en uppbyggt þannig að það nýtist öllum fyrirtækjum með vaktakerfi (t.d. hótelum, heilbrigðisstofnunum og öryggisþjónustu).
 
-## TilgangurMeginmarkmiðið er að eyða óreiðu í vaktaskiptum og koma á skilvirku, sjálfvirkara ferli sem sparar tíma hjá stjórnendum og eykur sveigjanleika hjá starfsfólki.
+## Tilgangur 
+Meginmarkmiðið er að eyða óreiðu í vaktaskiptum og koma á skilvirku, sjálfvirkara ferli sem sparar tíma hjá stjórnendum og eykur sveigjanleika hjá starfsfólki.
 
 Vandamálin sem kerfið leysir
 
 - Spjallhópaóreiða: Vaktaskipti fara oft fram í órekjanlegum skilaboðahópum (Messenger/WhatsApp), þar sem óskir gleymast eða valda ruglingi.
 
-- Tímafrek umsýsla vaktstjóra: Stjórnendur eyða miklum tíma í að handskrá breytingar, samþykkja skipti í gegnum ólíka csamkiptaleiðir og leita að afleysingafólki þegar forföll verða með stuttum fyrirvara.
+- Tímafrek umsýsla vaktstjóra: Stjórnendur eyða miklum tíma í að handskrá breytingar, samþykkja skipti í gegnum ólíka samkiptaleiðir og leita að afleysingafólki þegar forföll verða með stuttum fyrirvara.
 
 - Óskýr ábyrgð: Óvissa myndast um hver ber í raun ábyrgð á vaktinni ef skiptin hafa ekki verið skráð eða samþykkt með opinberum hætti.
 
@@ -34,11 +34,11 @@ Væntanlegur árangur
 
 - Einfaldari ferlar: Starfsfólk getur óskað eftir skiptum eða tekið að sér lausar vaktir með nokkrum smellum í símanum.
 
-- Full komin yfirsýn: Vaktstjórar sjá mönnunarstöðuna í rauntíma, fá viðvaranir um eyður á vaktaplaninu og geta samþykkt breytingar á einum stað.
+- Fullkomin yfirsýn: Vaktstjórar sjá mönnunarstöðuna í rauntíma, fá viðvaranir um eyður á vaktaplaninu og geta samþykkt breytingar á einum stað.
 
 - Styttur viðbragðstími: Lausar vaktir vegna veikinda eða forfalla mönnast mun hraðar með sjálfvirkum tilkynningum á tiltækt starfsfólk.
 
-- Mikið tímasparnaður og fækkun mistaka: Dregur úr líkum á tvíbókunum, mönnunarskorti og yfirvinnualagskostnaði.
+- Mikill tímasparnaður og fækkun mistaka: Dregur úr líkum á tvíbókunum, mönnunarskorti og yfirvinnualagskostnaði.
 
 ## Afmörkun (Scope)
 **Innan scope:**
@@ -55,7 +55,7 @@ Væntanlegur árangur
 - Persónulegt vaktaplan: Starfsfólk sér sína eigin dagskrá, framundan vaktir og sögu um skipti í persónulegu yfirliti.
 
 **Utan scope:**
-- Aðal-vaktaplangerð frá grunni: Kerfið er ekki ætlað til að búa til flókin upphafleg vaktaplön eða sjálfvirka gervigreindarhönnun á heildarvaktaplani (móttekur/flytur potþétt inn tilbúið plan).
+- Aðal-vaktaplangerð frá grunni: Kerfið er ekki ætlað til að búa til flókin upphafleg vaktaplön eða sjálfvirka gervigreindarhönnun á heildarvaktaplani (móttekur/flytur inn tilbúið plan).
 
 - Launavinnslu- og stjórnunarkerfi: Kerfið reiknar ekki út lokalaun, skatta eða orlof, heldur sér aðeins um að halda utan um hver vinnur hvaða vakt.
 
@@ -94,10 +94,12 @@ Eftirfarandi mynd sýnir mörk kerfisins (*System Boundary*) og hvernig ytri að
                         | (Útflutningur)  |
                         +-----------------+
 ```
-- **Fólk og hagsmunaaðilar:** Hverjir hafa samskipti við kerfið eða hafa áhrif á það?
-- **Ytri kerfi og þjónustur:** Hvaða önnur kerfi eða þjónustur hefur kerfið samskipti við?
-- **Önnur atriði í umhverfinu:** Eru t.d. ferli, reglur eða skjöl sem hafa áhrif á kerfið?
-- **Mörk kerfisins:** Hvað tilheyrir kerfinu og hvað tilheyrir samhengi þess?
+
+## Grátt svæði við kerfismörk
+
+Tilkynningaþjónusta er dæmi um atriði þar sem mörk kerfisins geta verið óljós. Vaktin ákveður hvenær senda þarf tilkynningu og hvaða upplýsingar hún á að innihalda, en sjálf sending tilkynningarinnar getur farið fram í gegnum ytri þjónustu, til dæmis þjónustu fyrir tilkynningar eða SMS-sendingar. Því teljum við virkni sem ákveður og útbýr tilkynningar vera innan kerfismarka Vaktarinnar, en þjónustuna sem sér um sjálfa sendinguna vera hluta af samhengi kerfisins.
+
+
 
 ## Tenging við SRS
 - Sjá nánari kröfuskipan í [SRS](SRS/SRS.md) (viðskiptakröfur, fídusar, notendakröfur o.s.frv.).
