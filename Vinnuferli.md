@@ -1,29 +1,33 @@
 # Vinnuferli
 
-## Hópavinna og geymsla 
+## Hópavinna og geymsla
 
-Takið fram hverjir eru í hópnum, hver verkaskiptinging er, hvert Git repository er. 
-Hver og einn á að setja inn og viðhalda geymslunni (Git)
+Hópur 7 er skipaður Edil Ingu Kristjánsdóttur og Gabríel Orra Karlssyni.
+
+Verkefnið var unnið í sameiginlegri Git-geymslu á GitHub. Báðir hópmeðlimir unnu í geymslunni og notuðu Git við vinnslu verkefnisins.
+
+Git repository: https://github.com/GabrielKalli/HBV301G-Verkefni-1
 
 ## Verkaskipting
-- Segið hvernig þið skiptið með ykkur verkum, t.d. hvernig þið unnið kröfurnar ein eða alltaf saman
-- Hvernig þið rýnduð kröfurnar hjá hvert öðru
-- Hvernig þið gerðuð pull, commit og push
+
+Við skiptum verkefninu á milli okkar og unnum hvor í sínum greinum (branches).
+
+Edil vann viðskiptakröfur, viðskiptareglur, kerfiskröfu, eiginleika kerfisins, notendakröfur og virknikröfur.
+
+Gabríel vann gæðaeiginleika, takmarkanir, ytri skil, SDS og almenna uppsetningu SRS. Hann setti einnig upp GitHub-geymsluna og GitHub Project fyrir verkefnið.
+
+Við stofnuðum Issues fyrir verkefni og unnum breytingar í sérstökum greinum. Breytingar voru vistaðar með commit og sendar á GitHub með push. Að vinnu lokinni voru stofnuð Pull Requests og við rýndum vinnu hvors annars áður en breytingar voru sameinaðar við main. Við notuðum pull og fetch til að sækja nýjustu breytingar úr sameiginlegu geymslunni.
 
 ## Ígrundun
-- Í lok verkefnis gerið endurmat á verkefninu:
-    - Hvað gekk vel í verkefninu
-    - Hvað má bæta næst
+
+Samstarfið gekk vel og verkaskiptingin gerði okkur kleift að vinna að mismunandi hlutum verkefnisins samhliða. Notkun Issues, branches og Pull Requests gerði verkferlið skýrara og auðveldaði okkur að fylgjast með stöðu verkefnisins.
+
+Það sem mætti bæta næst væri að ákveða verkaskiptingu og vinnuferli fyrr og gæta betur að því að allar breytingar séu gerðar í sérstakri grein áður en þær eru settar í main. Það myndi gera rýni og breytingasögu enn skýrari.
 
 ### Gagnsæisyfirlýsing um notkun gervigreindar
 
-Ef þið notið gervigreind við vinnslu verkefnisins skal koma fram:
+Við vinnslu verkefnisins var ChatGPT notað sem hjálpartæki í gegnum vinnuferlið. Gervigreind var meðal annars notuð til að útskýra hugtök í kröfugreiningu, aðstoða við að greina á milli mismunandi tegunda krafna, koma með tillögur að kröfum og orðalagi þeirra, yfirfara efni og aðstoða við notkun Git og GitHub.
 
-- hvaða gervigreindarverkfæri voru notuð,
-- hvaða kvaðningar (prompts) voru notaðar,
-- í hvaða tilgangi gervigreind var notuð,
-- hvernig þið breyttuð gervigreindarúttakinu og/eða nýttuð það?
+Kvaðningar sneru meðal annars að tegundum og flokkun krafna, tillögum að kröfum fyrir kerfið Vaktina, framsetningu og orðalagi krafna, yfirferð á verkefninu og framkvæmd Git-aðgerða á borð við branch, commit, push, pull og Pull Requests.
 
-Þið skuluð einnig lýsa því yfir að þið hafið yfirfarið efni sem kemur frá gervigreind og berið ábyrgð á öllu efni sem þið skilið.
-Ef gervigreind var ekki notuð við vinnslu verkefnisins skal það koma fram í gagnsæisyfirlýsingunni.
-
+Niðurstöður gervigreindar voru yfirfarnar og metnar áður en þær voru notaðar og efnið var aðlagað að kerfinu Vaktin og kröfum verkefnisins. Við tókum sjálfstæðar ákvarðanir um endanlegt efni verkefnisins og berum ábyrgð á öllu efni sem skilað er.
