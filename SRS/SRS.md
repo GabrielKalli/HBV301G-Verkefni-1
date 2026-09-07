@@ -183,8 +183,8 @@ Innleiðing á kerfinu **Vaktin** skilar mælanlegum ávinningi bæði fyrir rek
 ### 3.7 Gæðaeiginleikar
 | ID                                      | Titill                     |
 |-----------------------------------------|----------------------------|
-| [QA-1](quality_attribute.md#qa-1)       | [Gæðaeiginleiki, titill]   |
-| [QA-2](quality_attribute.md#qa-2)       | [Gæðaeiginleiki, titill]   |
+| [QA-1](quality_attribute.md#qa-1)       | Nothæfi og Hraði í Snjalltækjum   |
+| [QA-2](quality_attribute.md#qa-2)       | Afköst og Rauntímasvörun   |
 
 ### 3.8 Takmarkanir
 | ID                              | Titill                |
