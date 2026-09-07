@@ -26,8 +26,6 @@ Samstarfið gekk vel og verkaskiptingin gerði okkur kleift að vinna að mismun
 
 ### Gagnsæisyfirlýsing um notkun gervigreindar
 
-Við vinnslu verkefnisins var ChatGPT notað sem hjálpartæki í gegnum vinnuferlið. Gervigreind var meðal annars notuð til að útskýra hugtök í kröfugreiningu, aðstoða við að greina á milli mismunandi tegunda krafna, koma með tillögur að kröfum og orðalagi þeirra, yfirfara efni og aðstoða við notkun Git og GitHub.
+Við verkefnavinnuna var ChatGPT notað til að fá aðstoð við hugmyndavinnu, orðalag og yfirferð á kröfum, auk aðstoðar við Git og GitHub. Kvaðningar voru meðal annars um mismunandi tegundir krafna, tillögur að kröfum fyrir Vaktina og framkvæmd Git-aðgerða.
 
-Kvaðningar sneru meðal annars að tegundum og flokkun krafna, tillögum að kröfum fyrir kerfið Vaktina, framsetningu og orðalagi krafna, yfirferð á verkefninu og framkvæmd Git-aðgerða á borð við branch, commit, push, pull og Pull Requests.
-
-Niðurstöður gervigreindar voru yfirfarnar og metnar áður en þær voru notaðar og efnið var aðlagað að kerfinu Vaktin og kröfum verkefnisins. Við tókum sjálfstæðar ákvarðanir um endanlegt efni verkefnisins og berum ábyrgð á öllu efni sem skilað er.
+Svör frá ChatGPT voru notuð sem stuðningur við verkefnavinnuna og aðlöguð eftir þörfum. Við höfum yfirfarið efnið og berum ábyrgð á öllu sem skilað er.
