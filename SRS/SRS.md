@@ -199,16 +199,3 @@ Innleiðing á kerfinu **Vaktin** skilar mælanlegum ávinningi bæði fyrir rek
 | [UI-2](external_interface.md#ui-2)      | Útflutningur á vaktagögnum til launakerfa   |
 
 ---
-
-## 4. Viðaukar
-### 4.1 Orðalisti
-- Skilgreina lykilhugtök.
-
-  | Hugtak | Skilgreining |
-  |--------|--------------|
-  |        |              |
-  |        |              |
-
-### 4.2 Samþykktir
-- Kennari: ____________________  
-- Nemandi: ____________________
